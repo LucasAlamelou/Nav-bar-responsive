@@ -1,6 +1,13 @@
-const menuHamburger = document.querySelector(".menu-hamburger")
-const navLinks = document.querySelector(".nav-links")
+const menuHamburger = document.querySelector('.menu-hamburger');
+const navLinks = document.querySelector('.nav-links');
 
-menuHamburger.addEventListener('click', ()=>{
-    navLinks.classList.toggle("mobile-menu")
-})
+menuHamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-menu');
+});
+
+const btn = document.querySelector('.btn-header');
+
+btn.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-menu');
+  btn.classList.toggle('mobile-menu');
+});
