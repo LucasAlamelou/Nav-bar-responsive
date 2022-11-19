@@ -82,7 +82,7 @@ header{
 }
 ul li .active{
     font-weight: 600;
-    color:rgb(246, 246, 155);
+    color:rgb(246, 246, 156);
 }
 
 @media screen and (max-width: 900px){
